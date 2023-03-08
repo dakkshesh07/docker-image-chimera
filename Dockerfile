@@ -8,7 +8,7 @@ WORKDIR /root
 
 RUN apk update
 RUN apk upgrade
-RUN apk install tmate
+RUN apk add tmate
 
 ENV LANG=en_US.UTF-8
 CMD ["bash"]
